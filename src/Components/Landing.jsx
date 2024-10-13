@@ -11,7 +11,7 @@ const Landing = () => {
         <div className="w-[85vw] md:w-[75vw] lg:w-[60vw] py-8 px-8 rounded gap-y-10 shadow-2xl backdrop-blur-md flex items-center justify-center flex-col">
           <div className="flex items-center justify-center flex-col gap-y-2">
             <h1 className="text-3xl md:text-4xl text-center text-white">
-              <span className="title-font text-node text-bold">Graph Analyzer</span>
+              <span className="title-font text-wedgewood-100 text-bold">Graph Analyzer</span>
             </h1>
           </div>
           <span className="text-lg">What's Graph Analyzer all about?</span>
