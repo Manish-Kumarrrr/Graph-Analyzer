@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-
+import { useGraph } from "../../contexts/GraphProvider";
 
 import {
   randomizeGraphHandler,
@@ -15,7 +15,7 @@ import FindNodeMenu from "./FindNodeMenu";
 const ContextMenu = ({ visible, x, y, onClose }) => {
   if (!visible) return null;
 
-
+  const { nodes, setNodes, edges, setEdges, resetHistory } = useGraph();
 
   const countOfNodes = Object.keys(nodes).length;
 
