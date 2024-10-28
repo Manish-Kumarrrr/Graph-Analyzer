@@ -31,10 +31,10 @@ const TextInputMenu = ({ setIsDirected, showMessage }) => {
       <div>
         <h1 className="text-2xl">Input Format</h1>
         <p>
-          Firt line contains 2 space-separated positive integers: number of
+          1st line contains 2 space-separated positive integers: number of
           vertices n and number of edges m
         </p>
-        <p>Next m lines contain the edges in the from: u v</p>
+        <p>Next m lines contain the edges in the form: u v</p>
       </div>
       <form className="flex items-center gap-x-2 justify-center h-full">
         <textarea
